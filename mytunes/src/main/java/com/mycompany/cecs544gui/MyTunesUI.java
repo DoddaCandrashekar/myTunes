@@ -1767,6 +1767,8 @@ private void playPreviousSong(JTable table) {
         currentTable = table;
     }
 
+    //This is the main method
+    //@Chandra Shekar Dodda
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             new MyTunesUI().setVisible(true);
